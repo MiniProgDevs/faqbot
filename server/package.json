@@ -1,0 +1,24 @@
+{
+  "name": "react-backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "DEBUG=*,-snapdragon*,-nodemon*,-express*,-follow-redirects nodemon bin/www"
+  },
+  "dependencies": {
+    "@types/node": "^12.0.8",
+    "axios": "^0.19.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "debug-levels": "^0.2.0",
+    "dotenv": "^8.0.0",
+    "eslint": "^5.16.0",
+    "express": "~4.16.1",
+    "hbs": "^4.0.4",
+    "http-errors": "~1.6.3",
+    "mongodb": "^3.2.7",
+    "morgan": "~1.9.1",
+    "underscore": "^1.9.1"
+  }
+}

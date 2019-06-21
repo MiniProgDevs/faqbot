@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="718px" height="718px" viewBox="0 0 718 718" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>cloud</title>
+    <desc>Created with Sketch.</desc>
+    <g id="cloud" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill-opacity="0.499781469" fill="#E36E6E" cx="246" cy="316" r="152"></circle>
+        <circle id="Oval-Copy" fill-opacity="0.4980059" fill="#F9FF8C" cx="474" cy="394" r="112"></circle>
+        <circle id="Oval-Copy-2" fill-opacity="0.499453671" fill="#49F3F3" cx="253.5" cy="474.5" r="80.5"></circle>
+        <text id="music" font-family="Helvetica" font-size="72" font-weight="normal" letter-spacing="0.599999964" fill="#000000">
+            <tspan x="152.492188" y="336">music</tspan>
+        </text>
+        <text id="EDM" font-family="Helvetica" font-size="36" font-weight="normal" letter-spacing="0.299999982" fill="#000000">
+            <tspan x="468.050977" y="316">EDM</tspan>
+        </text>
+        <text id="rock" font-family="Helvetica" font-size="36" font-weight="normal" letter-spacing="0.299999982" fill="#000000">
+            <tspan x="285.395117" y="520">rock</tspan>
+        </text>
+    </g>
+</svg>
