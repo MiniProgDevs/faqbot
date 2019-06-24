@@ -16,6 +16,15 @@ const FaqBot = {
     return FaqBot.coll
   },
 
+
+  /**
+   * reload data from markdown or other specified location
+   * TODO move this to a separate module and just pass in rawdata to faqbot
+   * https://github.com/MiniProgDevs/faqbot/issues/1
+   * assumes flat markdown file
+   * # question => faq.q
+   * body text => faq.a[] array of paragraphs
+   */
   async reload() {
     debug.log('reload')
     // TODO - parse .md file and load into mongo
@@ -33,6 +42,10 @@ const FaqBot = {
     return items
   },
 
+  /**
+   * reply to msg.text
+   * @param {{ text: any; }} msgIn
+   */
   async reply(msgIn) {
     let text = msgIn.text
     let items = await FaqBot.find(text)
