@@ -3,6 +3,8 @@
 
 # In[ ]:
 
+## requirements anytree, markdown, bs4
+
 
 from anytree import Node, RenderTree
 import markdown
